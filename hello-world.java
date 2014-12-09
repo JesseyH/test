@@ -1,5 +1,5 @@
 public class hello-world{
-  public static void hello-world(String[] args) {
+  public static void main(String[] args) {
     JFrame frame = new JFram("Hello World");
     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     frame.getContentPane().add(emptyLabel, BorderLayout.CENTER);
